@@ -1,0 +1,62 @@
+{
+  "name": "Agentic AI Code Editor",
+  "short_name": "AI Code Editor",
+  "description": "A progressive web app for agentic AI-powered code generation and testing",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0B1120",
+  "theme_color": "#4F7CFF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%230B1120' width='192' height='192'/><circle cx='96' cy='96' r='80' fill='%234F7CFF'/><text x='96' y='110' font-size='90' font-weight='bold' fill='white' text-anchor='middle' font-family='monospace'>🤖</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%230B1120' width='512' height='512'/><circle cx='256' cy='256' r='200' fill='%234F7CFF'/><circle cx='256' cy='256' r='180' fill='%239B5CFF'/><text x='256' y='300' font-size='220' font-weight='bold' fill='white' text-anchor='middle' font-family='monospace'>🤖</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "developer"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%230B1120' width='540' height='720'/><rect fill='%23rgba(255,255,255,0.04)' x='20' y='20' width='500' height='200' rx='18'/><text x='270' y='100' font-size='24' fill='%23fff' text-anchor='middle' font-weight='bold'>AI Code Editor</text><text x='270' y='140' font-size='14' fill='%238B93B8' text-anchor='middle'>Real-time AI-powered development</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Watch AI Work",
+      "short_name": "Watch",
+      "description": "Launch and watch the AI agent work",
+      "url": "/?action=watch",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%234F7CFF' width='96' height='96' rx='20'/><text x='48' y='60' font-size='48' text-anchor='middle'>▶</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Start Mission",
+      "short_name": "Mission",
+      "description": "Begin a mission with the AI agent",
+      "url": "/?action=mission",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%239B5CFF' width='96' height='96' rx='20'/><text x='48' y='60' font-size='48' text-anchor='middle'>🚀</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
